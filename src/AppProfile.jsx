@@ -4,8 +4,13 @@ import Profile from "./component/Profile";
 import Avatar from "./component/Avatar";
 
 function AppProfile() {
+  const handleClick = (e) => {
+    console.log(e);
+    alert("버튼이 클릭됨!");
+  };
   return (
     <>
+      <button onClick={handleClick}>버튼</button>
       <Avatar
         image="https://pbs.twimg.com/profile_images/1571353371310804995/5EuNttEl_400x400.png"
         isNew={true}
