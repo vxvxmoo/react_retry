@@ -15,7 +15,6 @@ function AppProfile() {
         image="https://p16-va.lemon8cdn.com/tos-maliva-v-ac5634-us/f271c792ed5349deb39497551f9a473d~tplv-tej9nj120t-origin.webp"
         name="ハチワレ"
         title="하치와레"
-        isNew={false}
       />
       <Profile
         image="https://stickershop.line-scdn.net/stickershop/v1/product/25264193/LINEStorePC/main.png?v=1"
