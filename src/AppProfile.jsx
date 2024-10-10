@@ -1,10 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Profile from "./component/Profile";
+import Avatar from "./component/Avatar";
 
 function AppProfile() {
   return (
     <>
+      <Avatar
+        image="https://pbs.twimg.com/profile_images/1571353371310804995/5EuNttEl_400x400.png"
+        isNew={true}
+      />
       <Profile
         image="https://stat.ameba.jp/user_images/20231212/09/kobato00/66/a6/j/o0580058015375978652.jpg"
         name="うさぎ"
